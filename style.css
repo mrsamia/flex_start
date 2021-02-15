@@ -12,7 +12,7 @@
     
 
 }
-.txt_color{
+.nav_txt_color{
     color: #013289;
     font-weight:700;
     font-size: 16px;
@@ -21,7 +21,15 @@
     padding-right:15px!important;
    
 }
-
+.drop_down_txt_color{
+    color: #013289;
+    font-weight:600;
+    font-size: 16px;
+    
+    font-family: 'Nunito', sans-serif;
+    padding-left:15px!important;
+    padding-right:15px!important;
+}
 
 .get_started_1{
     border-radius: 5px;
@@ -35,6 +43,7 @@
 }
 .get_started_1:hover{
     background-color: #5F68ED;
+    border: none;
 }
 .get_started_2{
     border-radius:4px;
@@ -68,6 +77,26 @@ h1,h2,h3,h4,h5,h6{
     line-height: 1.2;
     margin-top: 15px;
 }
+
+@media screen and (max-width:768px) {
+    .txt_h1 {
+     
+       display: flex;
+       text-align: center;
+       font-size: 32px;
+       
+    }
+    .txt_frst_p{
+       
+       display: flex;
+       text-align: center;
+    }
+    .media_get_started_1{
+        display: flex;
+        justify-content: center!important;
+    }
+
+  }
 
 .txt_p{
     font-size:18px;
