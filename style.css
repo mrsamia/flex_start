@@ -116,15 +116,17 @@ h1,h2,h3,h4,h5,h6{
     color: #4154f1;
     font-weight: 600;
     font-size: 14px;
+    letter-spacing: 1px;
 }
 .all_h2_header{
     color: #012970;
-    font-size:38px ;
+    font-size:39px ;
     font-weight: 700;
+    font-family: "Open Sans", sans-serif;
 
 }
 .img_size{
-    width: 196px;
+    width: 260px;
     height: 160px;
     display: flex;
     align-items: center;
@@ -132,4 +134,19 @@ h1,h2,h3,h4,h5,h6{
     padding-left: 70px;
     max-width: 100%;
     
+}
+.img_size:hover{
+    transform: scale(1.1);
+    transition: 0.3s all ease;
+}
+.txt_algn{
+    text-align: center;
+     max-width: 89%;
+}
+.feature_h3{
+    font-size: 18px;
+    color: #012970;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-left: 30px;
 }
