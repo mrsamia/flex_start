@@ -63,6 +63,12 @@
     color: #012970;
     letter-spacing: 1px;
 }
+.txt_h2{
+    font-size:32px;
+    font-weight:700 ;
+    color: #012970; 
+}
+
 h1,h2,h3,h4,h5,h6{
     font-family: 'Nunito', sans-serif;
 }
@@ -107,8 +113,14 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
     justify-content: center;
 }
-.txt_h5{
+
+.txt_h4{
     font-size:23px;
+    font-weight:700 ;
+    color: #012970; 
+}
+.txt_h5{
+    font-size:20px;
     font-weight:700 ;
     color: #012970; 
 }
@@ -149,4 +161,48 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
     padding-top: 70px;
     padding-left: 30px;
+}
+.img_pad{
+    padding-left: 95px;
+}
+.num_style{
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    color: #0b198f;
+}
+
+.txt_p_5th_part{
+    font-size: 16px;
+    color: #848484;
+}
+.Card_h3{
+    color: #444444;
+    font-weight:700 ;
+    font-size:28px ;
+    text-align: center;
+    padding-top:35px;
+}
+
+
+.read_more{
+    text-decoration:None;
+    font-size:18px;
+    font-weight: 600; 
+    color: #2db6fa;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.Card_mete{
+    border-radius: 8px; 
+    border-bottom: 3px solid #2db6fa!important;
+    border: none;
+    color: black;
+}
+.Card_mete:hover{
+   background: #2db6fa;
+   transform:translateY(-5px);
+   border: none;
+   color: white !important;
+   
 }
