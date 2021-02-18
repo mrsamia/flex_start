@@ -189,20 +189,68 @@ h1,h2,h3,h4,h5,h6{
     text-decoration:None;
     font-size:18px;
     font-weight: 600; 
-    color: #2db6fa;
     text-align: center;
     padding-bottom: 50px;
 }
-.Card_mete{
-    border-radius: 8px; 
-    border-bottom: 3px solid #2db6fa!important;
+
+
+.Card_box{
     border: none;
     color: black;
+    border-radius: 5px;
+}
+.Card_mete{
+    border-bottom: 3px solid #2db6fa!important;
 }
 .Card_mete:hover{
    background: #2db6fa;
    transform:translateY(-5px);
    border: none;
-   color: white !important;
-   
+   color: white !important; 
 }
+
+.card_Eosle{
+    border-bottom: 3px solid #f68c09!important;
+}
+.card_Eosle:hover{
+    background: #f68c09;
+    transform:translateY(-5px);
+    border: none;
+    color: white !important; 
+ }
+.card_ledo{
+    border-bottom: 3px solid #08da4e!important;
+}
+.card_ledo:hover{
+    background: #08da4e;
+    transform:translateY(-5px);
+    border: none;
+    color: white !important; 
+ }
+.card_Asperiores{
+    border-bottom: 3px solid #e9222c!important;
+}
+.card_Asperiores:hover{
+    background: #e9222c;
+    transform:translateY(-5px);
+    border: none;
+    color: white !important; 
+ }
+.card_Velit{
+    border-bottom: 3px solid #b50edf!important;
+}
+.card_Velit:hover{
+    background: #b50edf;
+    transform:translateY(-5px);
+    border: none;
+    color: white !important; 
+ }
+.card_Dolori{
+    border-bottom: 3px solid #f51f9c!important;
+}
+.card_Dolori:hover{
+    background: #f51f9c;
+    transform:translateY(-5px);
+    border: none;
+    color: white !important; 
+ }
