@@ -16,42 +16,54 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-expand-lg navbar fixed-top pt-4"
-    style="height: 70px;">
-    <div class="container">
-        <div class=" d-flex align-items-center">
-            <img style="padding-right:5px; vertical-align: top;" src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/logo.png" alt="img">
-            <a href="#"  class="navbar-brand nav_brand ">FlexStart</a>
-          
+    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top pt-4" style="height: 70px;">
+        <div class="container">
+            <div class="align-items-center d-flex justify-content-between w-100">
+                <div class=" d-flex align-items-center">
+                    <img style="padding-right:5px; vertical-align: top;"
+                        src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/logo.png" alt="img">
+                    <a href="#" class="navbar-brand nav_brand ">FlexStart</a>
+    
+                </div>
+                <!-- Toggler/collapsibe Button -->
+                <div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item"><a class="nav-link nav_txt_color" href="#section1">Home</a></li>
+                            <li class="nav-item"><a class="nav-link nav_txt_color" href="#section2">About</a></li>
+                            <li class="nav-item"><a class="nav-link nav_txt_color" href="#section4">Services</a></li>
+                            <li class="nav-item"><a class="nav-link nav_txt_color" href="#section">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link nav_txt_color" href="#section">Team</a></li>
+                            <li class="nav-item"><a class="nav-link nav_txt_color" href="#section">Blog</a></li>
+        
+                            <li class="dropdown nav-item"><a class="dropdown-toggle nav-link nav_txt_color"
+                                    data-toggle="dropdown" href="#section">Drop Down <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="nav-link drop_down_txt_color" href="#">Drop Down 1</a></li>
+                                    <li><a class="nav-link drop_down_txt_color" href="#">Drop Down 2 </a></li>
+                                    <li><a class="nav-link drop_down_txt_color" href="#">Drop Down 3</a></li>
+                                    <li><a class="nav-link drop_down_txt_color" href="#">Drop Down 4</a></li>
+                                    <li><a class="nav-link drop_down_txt_color" href="#">Drop Down 5</a></li>
+                                </ul>
+                            </li>
+        
+                            <li class="nav-item"><a class="nav-link nav_txt_color" href="#section">Contact</a></li>
+                            <button class="get_started_1">Get Started</button>
+                        </ul>
+        
+                    </div>
+                </div>
+            </div>
         </div>
-        <ul class="nav navbar-nav ">
-            <li class="nav-item"><a class="nav-link nav_txt_color" href="#section1">Home</a></li>
-            <li class="nav-item"><a class="nav-link nav_txt_color" href="#section2">About</a></li>
-            <li class="nav-item"><a class="nav-link nav_txt_color" href="#section4">Services</a></li>
-            <li class="nav-item"><a class="nav-link nav_txt_color" href="#section">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link nav_txt_color" href="#section">Team</a></li>
-            <li class="nav-item"><a class="nav-link nav_txt_color" href="#section">Blog</a></li>
-            
-                <li class="dropdown nav-item"><a class="dropdown-toggle nav-link nav_txt_color" data-toggle="dropdown" href="#section">Drop Down <span class="caret"></span></a>
-                    <ul class="dropdown-menu" >
-                      <li><a class="nav-link drop_down_txt_color" href="#">Drop Down 1</a></li>
-                      <li><a class="nav-link drop_down_txt_color" href="#">Drop Down 2 </a></li>
-                      <li><a class="nav-link drop_down_txt_color" href="#">Drop Down 3</a></li>
-                      <li><a class="nav-link drop_down_txt_color" href="#">Drop Down 4</a></li>
-                      <li><a class="nav-link drop_down_txt_color" href="#">Drop Down 5</a></li>
-                    </ul>
-                  </li>
-
-            <li class="nav-item"><a class="nav-link nav_txt_color" href="#section">Contact</a></li>
-            <button class="get_started_1">Get Started</button>
-        </ul>
-       
-    </div>
-</nav>
+    </nav>
 
 <div class="1st_part all_part_top">
     <div class="container">
@@ -451,7 +463,7 @@
         <div class="col-3">
             <div class="card  Card_box_hover mt-5">
                 <div class="card-body">
-                    <p style="color: #ff901c!important; font-weight: 700; " class="txt_p">Free Plan</p>
+                    <p style="color: #ff901c!important; font-weight: 700; " class="txt_p">Business  Plan</p>
                     <img style="margin-left: 50px;" src="./../business_plan.png" alt="image">
                     <img class="pricing_img" src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/pricing-business.png" alt="image">
                     <p class="txt_p">Aida dere</p>
@@ -481,7 +493,7 @@
         <div class="col-3">
             <div class="card Card_box_hover mt-5">
                 <div class="card-body">
-                    <p style="color: #ff0071!important; font-weight: 700; " class="txt_p">Free Plan</p>
+                    <p style="color: #ff0071!important; font-weight: 700; " class="txt_p">Ultimate  Plan</p>
                     <img style="margin-left: 50px;" src="./../ultimate-plan.png" alt="image">
                     <img class="pricing_img" src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/pricing-ultimate.png" alt="image">
                     <p class="txt_p">Aida dere</p>
@@ -494,6 +506,57 @@
             </div>
         </div>
     </div>
+    </div>
+</div>
+
+<div class="8th_part">
+    <div class="container">
+        <div class="d-flex justify-content-center pt-5">
+            <div class="pt-5 row">
+                <div class="col-12">
+                    <p class="all_p_header d-flex justify-content-center">F.A.Q</p>
+                <h2 class="all_h2_header" >Frequently Asked Questions</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-6">
+                <p class="txt_p">Non consectetur a erat nam at lectus urna duis?
+                    <button type="button"  data-toggle="collapse" data-target="#demo1">
+                    <span class="glyphicon glyphicon-chevron-down" style="color:black !important; margin-left:20px;"></span></button>
+                    </p>
+                    
+                    <div id="demo1" class="collapse">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+
+                    <p>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2">
+                        <span class="glyphicon glyphicon-chevron-down"></span></button>
+                        </p>
+                        
+                        <div id="demo2" class="collapse">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </div>
+            </div>
+            <div class="col-6">
+                <p>Click on the button to toggle between showing and hiding content.
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">
+                    <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </p>
+                    
+                    <div id="demo" class="collapse">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+            </div>
+        </div>
     </div>
 </div>
 </body>

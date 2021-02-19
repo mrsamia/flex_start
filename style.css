@@ -209,6 +209,10 @@ h1,h2,h3,h4,h5,h6{
    color: white !important; 
 }
 
+.Card_box:hover .Card_h3, .Card_box:hover .txt_p, .Card_box:hover .read_more{
+    color: white!important;
+}
+
 .card_Eosle{
     border-bottom: 3px solid #f68c09!important;
 }
