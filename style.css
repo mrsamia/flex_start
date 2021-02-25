@@ -1,11 +1,11 @@
-.all_part_top{
+.all_part_top {
     padding-top: 120px;
 }
 
 .parallax {
     /* The image used */
     background-image: url("https://bootstrapmade.com/demo/templates/FlexStart/assets/img/hero-bg.png");
-    height:100%;
+    height: 100%;
     width: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -13,38 +13,40 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-  }
+}
 
 
-.nav_brand{
-    font-weight:700; 
-    font-size:30px; 
+.nav_brand {
+    font-weight: 700;
+    font-size: 30px;
     color: #012970;
     font-family: 'Nunito', sans-serif;
     letter-spacing: 1px;
-    
+
 
 }
-.nav_txt_color{
+
+.nav_txt_color {
     color: #013289;
-    font-weight:700;
+    font-weight: 700;
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
-    padding-left:15px!important;
-    padding-right:15px!important;
-   
-}
-.drop_down_txt_color{
-    color: #013289;
-    font-weight:600;
-    font-size: 16px;
-    
-    font-family: 'Nunito', sans-serif;
-    padding-left:15px!important;
-    padding-right:15px!important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+
 }
 
-.get_started_1{
+.drop_down_txt_color {
+    color: #013289;
+    font-weight: 600;
+    font-size: 16px;
+
+    font-family: 'Nunito', sans-serif;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.get_started_1 {
     border-radius: 5px;
     background-color: #4154f1;
     color: white;
@@ -54,12 +56,14 @@
     margin-left: 15px;
     font-family: 'Nunito', sans-serif;
 }
-.get_started_1:hover{
+
+.get_started_1:hover {
     background-color: #5F68ED;
     border: none;
 }
-.get_started_2{
-    border-radius:4px;
+
+.get_started_2 {
+    border-radius: 4px;
     background-color: #4154f1;
     color: white;
     font-weight: 600;
@@ -70,28 +74,37 @@
     letter-spacing: 1px;
     margin-top: 20px;
 }
-.txt_h1{
+
+.txt_h1 {
     font-size: 48px;
-    font-weight:700 ;
+    font-weight: 700;
     color: #012970;
     letter-spacing: 1px;
 }
-.txt_h2{
-    font-size:32px;
-    font-weight:700 ;
-    color: #012970; 
+
+.txt_h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #012970;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Nunito', sans-serif;
 }
-.side_padding{
-    max-width:100%; 
-    padding-left:0px;
+
+.side_padding {
+    max-width: 100%;
+    padding-left: 0px;
 }
-.txt_frst_p{
+
+.txt_frst_p {
     font-size: 26px;
-    font-family:'Nunito', sans-serif ;
+    font-family: 'Nunito', sans-serif;
     color: #444444;
     line-height: 1.2;
     margin-top: 15px;
@@ -99,292 +112,326 @@ h1,h2,h3,h4,h5,h6{
 
 @media screen and (max-width:768px) {
     .txt_h1 {
-     
-       display: flex;
-       text-align: center;
-       font-size: 32px;
-       
-    }
-    .txt_frst_p{
-       
-       display: flex;
-       text-align: center;
-    }
-    .media_get_started_1{
+
         display: flex;
-        justify-content: center!important;
+        text-align: center;
+        font-size: 32px;
+
     }
 
-  }
+    .txt_frst_p {
 
-.txt_p{
-    font-size:18px;
-    font-family:'Nunito', sans-serif ;
+        display: flex;
+        text-align: center;
+    }
+
+    .media_get_started_1 {
+        display: flex;
+        justify-content: center !important;
+    }
+
+}
+
+.txt_p {
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
     color: #444444;
     line-height: 1.2;
-    margin-top: 15px; 
+    margin-top: 15px;
     display: flex;
     justify-content: center;
 }
 
-.txt_h4{
-    font-size:23px;
-    font-weight:700 ;
-    color: #012970; 
+.txt_h4 {
+    font-size: 23px;
+    font-weight: 700;
+    color: #012970;
 }
-.txt_h5{
-    font-size:20px;
-    font-weight:700 ;
-    color: #012970; 
+
+.txt_h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #012970;
 }
-.all_p_header{
+
+.all_p_header {
     color: #4154f1;
     font-weight: 600;
     font-size: 14px;
     letter-spacing: 1px;
 }
-.all_h2_header{
+
+.all_h2_header {
     color: #012970;
-    font-size:39px ;
+    font-size: 39px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
 
 }
 
-.card_style{
-    box-shadow: 0px 0 5px rgb(1 41 112 / 8%); 
+.card_style {
+    box-shadow: 0px 0 5px rgb(1 41 112 / 8%);
     border: none;
-    height:450px; 
+    height: 450px;
 }
-.img_size{
+
+.img_size {
     width: 320px;
     height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left:65px;
+    padding-left: 65px;
     max-width: 100%;
-    
+
 }
-.card:hover .img_size{
+
+.card:hover .img_size {
     transform: scale(1.1);
     transition: 0.3s all ease;
 }
-.txt_algn{
+
+.txt_algn {
     text-align: center;
-    max-width:100%;
+    max-width: 100%;
 }
-.feature_h3{
+
+.feature_h3 {
     font-size: 18px;
     color: #012970;
     font-weight: 700;
     padding-top: 70px;
     padding-left: 30px;
 }
-.img_pad{
+
+.img_pad {
     padding-left: 95px;
 }
-.num_style{
+
+.num_style {
     font-size: 36px;
     display: block;
     font-weight: 600;
     color: #0b198f;
 }
 
-.txt_p_5th_part{
+.txt_p_5th_part {
     font-size: 16px;
     color: #848484;
 }
-.Card_h3{
+
+.Card_h3 {
     color: #444444;
-    font-weight:700 ;
-    font-size:28px ;
+    font-weight: 700;
+    font-size: 28px;
     text-align: center;
-    padding-top:35px;
+    padding-top: 35px;
 }
 
 
-.read_more{
-    text-decoration:None;
-    font-size:18px;
-    font-weight: 600; 
+.read_more {
+    text-decoration: None;
+    font-size: 18px;
+    font-weight: 600;
     text-align: center;
     padding-bottom: 50px;
 }
 
 
-.Card_box{
+.Card_box {
     border: none;
     color: black;
     border-radius: 5px;
 }
-.Card_mete{
-    border-bottom: 3px solid #2db6fa!important;
-}
-.Card_mete:hover{
-   background: #2db6fa;
-   transform:translateY(-5px);
-   border: none;
-   color: white !important; 
+
+.Card_mete {
+    border-bottom: 3px solid #2db6fa !important;
 }
 
-.Card_box:hover .Card_h3, .Card_box:hover .txt_p, .Card_box:hover .read_more{
-    color: white!important;
+.Card_mete:hover {
+    background: #2db6fa;
+    transform: translateY(-5px);
+    border: none;
+    color: white !important;
 }
 
-.card_Eosle{
-    border-bottom: 3px solid #f68c09!important;
+.Card_box:hover .Card_h3,
+.Card_box:hover .txt_p,
+.Card_box:hover .read_more {
+    color: white !important;
 }
-.card_Eosle:hover{
+
+.card_Eosle {
+    border-bottom: 3px solid #f68c09 !important;
+}
+
+.card_Eosle:hover {
     background: #f68c09;
-    transform:translateY(-5px);
+    transform: translateY(-5px);
     border: none;
-    color: white !important; 
- }
-.card_ledo{
-    border-bottom: 3px solid #08da4e!important;
+    color: white !important;
 }
-.card_ledo:hover{
-    background: #08da4e;
-    transform:translateY(-5px);
-    border: none;
-    color: white !important; 
- }
-.card_Asperiores{
-    border-bottom: 3px solid #e9222c!important;
-}
-.card_Asperiores:hover{
-    background: #e9222c;
-    transform:translateY(-5px);
-    border: none;
-    color: white !important; 
- }
-.card_Velit{
-    border-bottom: 3px solid #b50edf!important;
-}
-.card_Velit:hover{
-    background: #b50edf;
-    transform:translateY(-5px);
-    border: none;
-    color: white !important; 
- }
-.card_Dolori{
-    border-bottom: 3px solid #f51f9c!important;
-}
-.card_Dolori:hover{
-    background: #f51f9c;
-    transform:translateY(-5px);
-    border: none;
-    color: white !important; 
- }
 
-.Card_box_hover{
+.card_ledo {
+    border-bottom: 3px solid #08da4e !important;
+}
+
+.card_ledo:hover {
+    background: #08da4e;
+    transform: translateY(-5px);
     border: none;
-    box-shadow: 0px 0 30px rgb(1 41 112 / 10%); 
+    color: white !important;
+}
+
+.card_Asperiores {
+    border-bottom: 3px solid #e9222c !important;
+}
+
+.card_Asperiores:hover {
+    background: #e9222c;
+    transform: translateY(-5px);
+    border: none;
+    color: white !important;
+}
+
+.card_Velit {
+    border-bottom: 3px solid #b50edf !important;
+}
+
+.card_Velit:hover {
+    background: #b50edf;
+    transform: translateY(-5px);
+    border: none;
+    color: white !important;
+}
+
+.card_Dolori {
+    border-bottom: 3px solid #f51f9c !important;
+}
+
+.card_Dolori:hover {
+    background: #f51f9c;
+    transform: translateY(-5px);
+    border: none;
+    color: white !important;
+}
+
+.Card_box_hover {
+    border: none;
+    box-shadow: 0px 0 30px rgb(1 41 112 / 10%);
     border-radius: 5px;
 }
-.Card_box_hover:hover{
-    transform:scale(1.1); 
+
+.Card_box_hover:hover {
+    transform: scale(1.1);
     box-shadow: 0px 0 30px rgb(1 41 112 / 10%);
     transition: 0.3s all ease;
 }
 
- .pricing_img{
+.pricing_img {
     width: 150px;
-    height:130px; 
-    margin-top:30px; 
-    margin-bottom:30px;
+    height: 130px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     margin-left: 60px;
- }
- .buy_now{
-     border-radius: 30px;
-     width: 148px;
-     height:44px ;
-     display: flex;
-     justify-content: center;
-     margin-left: 75px;
-     margin-bottom: 40px;
+}
+
+.buy_now {
+    border-radius: 30px;
+    width: 148px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    margin-left: 75px;
+    margin-bottom: 40px;
     padding-top: 9px;
-     color: #4154f1;
+    color: #4154f1;
     transition: none;
     font-size: 16px;
     font-family: "Nunito", sans-serif;
     font-weight: 600;
     transition: 0.3s;
     border: 1px solid #4154f1;
- }
- .buy_now:hover{
-    background-color:#4154f1 ; 
+}
+
+.buy_now:hover {
+    background-color: #4154f1;
     color: white;
-    font-weight:700;
-    font-size:18px ;
- }
+    font-weight: 700;
+    font-size: 18px;
+}
 
- li.a {
-    display: inline; /* the default for span */
-     cursor: pointer;
-      padding: 8px 20px 10px 20px;
-      font-size: 15px;
-      font-weight: 600;
-      line-height: 1;
-      color: #444444;
-      margin: 0 4px 8px 4px;
-      transition: 0.3s;
-      border-radius: 50px;
-      border: 1px solid #fff;
-  }
-  li.ab {
-    display: inline; /* the default for span */
-     cursor: pointer;
-      padding: 8px 20px 10px 20px;
-      font-size: 15px;
-      font-weight: 600;
-      line-height: 1;
-      color:#4154f1 ;
-      margin: 0 4px 8px 4px;
-      transition: 0.3s;
-      border-radius: 50px;
-      border:1px solid #4154f1;
-  }
-  li.a:hover{
-      border:1px solid #4154f1; 
-      color:#4154f1 ;
-  }
+ul .portfolio-nav-item {
+    display: inline;
+    cursor: pointer;
+    padding: 8px 20px 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+    color: #444444;
+    margin: 0 4px 8px 4px;
+    transition: 0.3s;
+    border-radius: 50px;
+    border: 1px solid #fff;
+}
 
-  .img_size_2{
-    width:400px;
-    height:300px;
-  }
-  .img_size_2:hover{
-    transform:scale(1.1);
-    transition: .3s all ease; 
-  }
-  .overlay{
+ul .active-portfolio-nav-item {
+    display: inline;
+    cursor: pointer;
+    padding: 8px 20px 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+    color: #4154f1;
+    margin: 0 4px 8px 4px;
+    transition: 0.3s;
+    border-radius: 50px;
+    border: 1px solid #4154f1;
+}
+
+.portfolio-nav-item:hover {
+    border: 1px solid #4154f1;
+    color: #4154f1;
+}
+
+
+.overlay {
+    transition: 0.3s;
     position: relative;
-  }
-  .img_overlay{
+    overflow: hidden;
+    z-index:1;
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.overlay img {
+    width: 400px;
+    height:300px;
+}
+
+.img_overlay {
     position: absolute;
     text-align: center;
-    background-color:rgba(255,255,255,0.75);
-    color:red;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top:0;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    opacity:0;
+    opacity: 0;
     bottom: 50%;
+    z-index: 3;
     font-size: 30px;
-    width:100%;
-    height:100%;
-  }
-  .overlay:hover .img_overlay{
+    width: 100%;
+    height: 100%;
+}
+
+.overlay:hover img, 
+.overlay:hover .img_overlay {
     opacity: 1;
-    transform:scale(1.1);
-    transition: .3s all ease;
-  }
-  
-  
+    transform: scale(1.1);
+    transition: .5s all ease;
+}
