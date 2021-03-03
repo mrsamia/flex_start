@@ -435,6 +435,34 @@ ul .active-portfolio-nav-item {
     transform: scale(1.1);
     transition: .5s all ease;
 }
+.post_date{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(1, 41, 112, 0.6);
+    display: block;
+    margin-bottom: 10px;
+}
+.img-box{
+    overflow: hidden;
+    position: relative;
+}
+
+.card_blog{
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    transition: 0.3s;
+    height: 100%;
+    overflow: hidden;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.card_blog:hover .img-box{
+    transform: scale(1.1);
+    transition: .5s all ease;
+   
+}
 
 .thirteen_part{
     align-items: center;
