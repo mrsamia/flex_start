@@ -475,3 +475,50 @@ ul .active-portfolio-nav-item {
     background: #f6f9ff;
     border-top: 1px solid #e1ecff;
 }
+.team_card{
+    border: none;
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    border-radius:8px;
+    background: #fff;
+    transition: 0.3s;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.team_card:hover{
+    transform: scale(1.1);
+    transition: .5s all ease;
+}
+.team_pic_overlay{
+    transition: 0.3s;
+    position: relative;
+}
+.team_pic_ovrly{
+    position: absolute;
+    text-align: center;
+    margin: 15px 12px;
+    align-items: center;
+    opacity: 0;
+    z-index: 3;
+    font-size: 20px;
+    width: 100%;
+    bottom:0;
+    top: 250px;
+    background: rgba(255, 255, 255, 0.3);
+    padding-right: 15px;
+    
+}
+.team_card:hover .team_pic_ovrly {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: .5s all ease;
+}
+.txt_p_team{
+    font-style: italic;
+    font-size: 16px;
+    padding-top: 15px;
+    line-height: 26px;
+    color: #6b6969;
+}
